@@ -1,9 +1,16 @@
+import Header from './widgets/header/Header';
+
 interface AppProps {
   className?: string;
 }
 
 const App = ({ className }: AppProps) => {
-  return <div className={className}></div>;
+  return (
+    <>
+      <Header />
+      <main></main>
+    </>
+  );
 };
 
 export default App;
