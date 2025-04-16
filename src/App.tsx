@@ -1,14 +1,17 @@
+import Container from './shared/ui/Container';
+import { css } from './styled-system/css';
+import CardWrapper from './widgets/card-wrapper/ui/CardWrapper';
 import Header from './widgets/header/Header';
 
-interface AppProps {
-  className?: string;
-}
-
-const App = ({ className }: AppProps) => {
+const App = () => {
   return (
     <>
       <Header />
-      <main></main>
+      <main className={css({ background: "url('./assets/bg.png')", width: '100%' })}>
+        <Container>
+          <CardWrapper />
+        </Container>
+      </main>
     </>
   );
 };

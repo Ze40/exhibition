@@ -28,6 +28,10 @@ export default defineConfig({
           primary: { value: '#C2E1F8' },
           font: { value: '#201B50' },
         },
+
+        borders: {
+          primary: { value: '4px solid {colors.primary}' },
+        },
       },
       semanticTokens: {
         sizes: {
