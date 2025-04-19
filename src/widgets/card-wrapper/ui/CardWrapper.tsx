@@ -6,7 +6,7 @@ const CardWrapper = () => {
   return (
     <div className={vstack({ gap: '40px', padding: '40px 0' })}>
       {worksList.map((e) => (
-        <WorkCard key={e.id} name={e.name} img={e.img} id={e.id} />
+        <WorkCard key={e.id} name={e.name} img={e.img} id={e.id} authors={e.authors} />
       ))}
     </div>
   );

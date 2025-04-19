@@ -10,7 +10,7 @@ interface ContainerProps {
 const Container = ({ className, children }: ContainerProps) => {
   return (
     <div
-      className={`${css({ width: 'container', position: 'relative', padding: '0 5px', margin: '0 auto' })} ${className}`}
+      className={`${css({ width: 'container', position: 'relative', padding: '0 15px', margin: '0 auto' })} ${className}`}
     >
       {children}
     </div>

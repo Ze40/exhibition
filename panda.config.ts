@@ -83,6 +83,17 @@ export default defineConfig({
               '3xl': '36px',
             },
           },
+          normal: {
+            value: {
+              base: '12px',
+              sm: '13px',
+              md: '14px',
+              lg: '15px',
+              xl: '16px',
+              '2xl': '18px',
+              '3xl': '18px',
+            },
+          },
           small: {
             value: {
               base: '8px',
